@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Header from 'next/head'
 import db from '../db.json'
 import Widget from '../src/components/Widget'
 import QuizBackground from '../src/components/QuizBackground'
@@ -26,6 +27,18 @@ margin: auto 10%;
 export default function Home() {
   return (
       <QuizBackground backgroundImage={db.bg}>
+        <Header>
+          <title>{db.title}</title>
+          <meta property="og:locale" content="pt_BR" />
+          <meta property="og:url" content="https://my-aluraquiz.romulosramos.vercel.app/" />
+          <meta property="og:site_name" content={db.title} />
+          <meta property="og:description" content="Quiz Sobre o canal Manual do Mundo Criado Durante a Imersão React Next  da Alura"/>
+          <meta property="og:image" content={db.bg}/>
+          <meta property="og:image:type" content="image/jpeg"/>
+          <meta property="og:image:width" content="800"/>
+          <meta property="og:image:height" content="600"/>
+          <meta property="og:type" content="website"/>
+        </Header>
         <QuizContainer>
           <Widget>
             <Widget.Header>
