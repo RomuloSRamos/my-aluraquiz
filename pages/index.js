@@ -29,10 +29,10 @@ export default function Home() {
         <QuizContainer>
           <Widget>
             <Widget.Header>
-              <h1>Ainda não escolhi o nome do quiz</h1>
+              <h1>{db.title}</h1>
             </Widget.Header>
             <Widget.Content>
-              <p>lorem ipsum dolor sit amet...</p>
+              <p>{db.description}</p>
             </Widget.Content>
           </Widget>  
 
@@ -44,7 +44,7 @@ export default function Home() {
           </Widget>
           <Footer />
         </QuizContainer>
-        <GitHubCorner projectUrl = "https://github.com/RomuloSRamos"/>
+        <GitHubCorner projectUrl = "https://github.com/RomuloSRamos/my-aluraquiz"/>
       </QuizBackground>
   )
 
