@@ -1,3 +1,6 @@
+/* Index < mauisculo não né...
+   agora arrumei eu acho.
+*/
 import styled from 'styled-components';
 
 const AlternativesForm = styled.form`
