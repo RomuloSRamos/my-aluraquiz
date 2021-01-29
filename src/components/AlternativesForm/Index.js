@@ -21,4 +21,5 @@ const AlternativesForm = styled.form`
   }
 `;
 
+
 export default AlternativesForm;
