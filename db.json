@@ -4,25 +4,26 @@
     "description": "Vamos ver quanto você sabe desse super canal",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "image": "https://media.giphy.com/media/l0ExvlQpHWYYubT0s/giphy-downsized.gif",
+        "title": "Quando começou o manual do mundo",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 0,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+            "Em 2008",
+            "Em 2007",
+            "Em 2011"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "image": "https://media.giphy.com/media/14aVj10D1TwHu0/giphy.gif",
+        "title": "De acordo com o ''50 fatos sobre nós'', como Iberê era apelidado no colegial?",
         "description": "Faz tempo em haha",
-        "answer": 0,
+        "answer": 2,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+            "Bonequinho Lego",
+            "Ibérica",
+            "Playmobil"
+
         ]
       }
     ],
